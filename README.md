@@ -5,13 +5,13 @@ Cirando um novo container
 ```console
   sudo docker run --name <nome do container> -e POSTGRES_PASSWORD=<senha do container> -d -p <porta ex: 5432>:<porta ex: 5432> <tipo do container ex: postgres or mysql>
 ```
-Verificando todos os conteiners intalado
+Verificando todos os containers instalado
 
 ```console
   sudo docker ps -a
 ```
 
-Startando o container
+Estartando o container
 ```console
   sudo docker start <id do container>
 ```
